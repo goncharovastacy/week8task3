@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/intro');
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    border: none;
+    background-color: #5222D0;
+    border-radius: 100px;
+    font-family: 'Intro Demo';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.main__text {
+    margin-top: 10px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.main__button {
+    margin-top: 30px;
+    height: 84px;
+    width: 270px;
+    border-radius: 100px;
+    font-size: 35px;
+    line-height: 35px;
+
+}
+
+.box {
+    margin-top: 40px;
+}
+
+.box__card {
+    display: flex;
+    flex-direction: column;
+    max-width: 365px;
+}
+
+.box__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 22px 50px 20px;
+    max-width: 365px;
+    max-height: 233px;
+    background-color: #EC615B;
+}
+
+.box__card__title,
+.box__form__title {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-family: 'Intro Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.box__form__title {
+    color: #FFFFFF;
+}
+
+.box__card__text {
+    margin-top: 10px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.box__form__input {
+    margin-top: 6px;
+    height: 50px;
+    border: none;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.box__form__button {
+    margin-top: 23px;
+    height: 38px;
+    width: 155px;
+    left: 1021px;
+    top: 994px;
+    border-radius: 100px;
+}
+
+.footer {
+    margin-top: 86px;
+    margin-bottom: 80px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation__item {
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #5222D0;
+}
+
+.navigation__item:not(:last-child) {
+    margin-right: 34px;
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+        margin-left: 126px;
+    }
+
+    .container-box {
+        margin-right: 72px;
+    }
+
+    .header {
+        margin: 50px 76px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main {
+        max-width: 542px;
+        margin-top: 79px;
+        padding-bottom: 240px;
+    }
+
+    .main__headline {
+        font-family: 'Intro Demo', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 120%;
+    }
+
+    .headline-box {
+        margin-top: 100px;
+        font-family: 'Intro Demo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 120%;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 25px;
+        column-gap: 71px;
+    }
+
+    .box__form__input {
+        max-width: 323px;
+
+    }
+
+    .container-main {
+        max-height: 725px;
+        background-image: url(./images/backphoto.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+    .container {
+        margin-left: 126px;
+    }
+
+    .container-box {
+        margin-right: 72px;
+    }
+
+    .header {
+        margin: 50px 76px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main {
+        max-width: 542px;
+        margin-top: 79px;
+        padding-bottom: 240px;
+    }
+
+    .main__headline {
+        font-family: 'Intro Demo', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 120%;
+    }
+
+    .headline-box {
+        margin-top: 100px;
+        font-family: 'Intro Demo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 120%;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 25px;
+        column-gap: 71px;
+    }
+
+    .box__form__input {
+        max-width: 190px;
+
+    }
+
+    .container-main {
+        max-height: 725px;
+        background-image: url(./images/backphoto.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 879px) and (max-width: 1023px) {
+    .container {
+        margin-left: 126px;
+    }
+
+    .container-box {
+        margin-right: 72px;
+    }
+
+    .header {
+        margin: 50px 76px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main {
+        max-width: 542px;
+        margin-top: 79px;
+        padding-bottom: 240px;
+    }
+
+    .main__headline {
+        font-family: 'Intro Demo', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 120%;
+    }
+
+    .headline-box {
+        margin-top: 100px;
+        font-family: 'Intro Demo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 120%;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 25px;
+        column-gap: 71px;
+    }
+
+
+}
+
+@media screen and (max-width: 880px) {
+    .container {
+        margin-left: 20px;
+    }
+
+    .container-box {
+        margin-right: 20px;
+    }
+
+    .header {
+        margin: 5px 5px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main {
+        margin: auto;
+        margin-top: 79px;
+
+    }
+
+    .main__headline {
+        font-family: 'Intro Demo', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+    .headline-box {
+        margin-top: 100px;
+        font-family: 'Intro Demo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+        column-gap: 71px;
+        justify-items: center;
+    }
+
+    .box__form__input {
+        width: 323px;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+}
